@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CentralCommand-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -280,7 +281,7 @@ $EndComp
 Text Label 2850 3700 0    60   ~ 0
 VCC
 $Comp
-L LED D203
+L LED-RESCUE-CentralCommand D203
 U 1 1 56C6507B
 P 5100 4900
 F 0 "D203" H 5100 5000 50  0000 C CNN
@@ -295,7 +296,7 @@ F 7 "Green" H 5100 4900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D204
+L LED-RESCUE-CentralCommand D204
 U 1 1 56C650D3
 P 5350 5050
 F 0 "D204" H 5350 5150 50  0000 C CNN
@@ -487,7 +488,7 @@ F 3 "" H 650 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D205
+L LED-RESCUE-CentralCommand D205
 U 1 1 56CC1A90
 P 5950 2100
 F 0 "D205" H 5950 2200 50  0000 C CNN
