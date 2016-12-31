@@ -29,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32f030c8
+LIBS:CE_IC
 LIBS:CentralCommand-cache
 EELAYER 25 0
 EELAYER END
