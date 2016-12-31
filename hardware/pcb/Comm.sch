@@ -1,5 +1,15 @@
 EESchema Schematic File Version 2
-LIBS:CentralCommand-rescue
+LIBS:CE_IC
+LIBS:CE_Regulator
+LIBS:CE_Connector
+LIBS:CE_Switch
+LIBS:CE_Resistor
+LIBS:CE_Diode
+LIBS:CE_Inductor
+LIBS:CE_Power
+LIBS:CE_Capacitor
+LIBS:CE_Crystal
+LIBS:CE_Filter
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +39,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:CE_IC
 LIBS:CentralCommand-cache
 EELAYER 25 0
 EELAYER END

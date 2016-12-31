@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
     (links 160)
@@ -2832,6 +2832,9 @@
 
   (segment (start 63.6 48.95) (end 63.65 48.95) (width 0.6096) (layer B.Cu) (net 0) (tstamp 56D23109))
   (segment (start 63.55 48.95) (end 63.6 48.95) (width 0.6096) (layer B.Cu) (net 0) (tstamp 56D23108))
+  (segment (start 59.944 50.816) (end 58.436 50.816) (width 0.1524) (layer F.Cu) (net 1))
+  (via (at 57.912 50.292) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
+  (segment (start 58.436 50.816) (end 57.912 50.292) (width 0.1524) (layer F.Cu) (net 1) (tstamp 56CFF01E))
   (segment (start 69.45 47.1) (end 73.65 47.1) (width 0.6096) (layer F.Cu) (net 1))
   (via (at 73.7 47.15) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
   (segment (start 73.65 47.1) (end 73.7 47.15) (width 0.6096) (layer F.Cu) (net 1) (tstamp 56D24CF8))
@@ -2888,9 +2891,6 @@
   (segment (start 71.68 57.45) (end 71.68 55.828) (width 0.1524) (layer F.Cu) (net 1))
   (via (at 71.882 55.626) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
   (segment (start 71.68 55.828) (end 71.882 55.626) (width 0.1524) (layer F.Cu) (net 1) (tstamp 56CFF033))
-  (segment (start 59.944 50.816) (end 58.436 50.816) (width 0.1524) (layer F.Cu) (net 1))
-  (via (at 57.912 50.292) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
-  (segment (start 58.436 50.816) (end 57.912 50.292) (width 0.1524) (layer F.Cu) (net 1) (tstamp 56CFF01E))
   (segment (start 59.944 71.612) (end 58.944 71.612) (width 0.1524) (layer F.Cu) (net 1))
   (via (at 58.166 72.39) (size 0.6858) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
   (segment (start 58.944 71.612) (end 58.166 72.39) (width 0.1524) (layer F.Cu) (net 1) (tstamp 56CFF018))
