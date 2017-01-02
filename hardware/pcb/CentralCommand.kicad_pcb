@@ -312,7 +312,7 @@
     (add_net GND)
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D1CF9D) (tstamp 56CA7A60)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D1CF9D) (tstamp 56CA7A60)
     (at 68.326 55.372 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -334,14 +334,14 @@
       (net 98 /VDDA))
     (pad 2 smd rect (at 1 0 180) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D2319B) (tstamp 56CA7A66)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D2319B) (tstamp 56CA7A66)
     (at 59.944 51.816 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -363,14 +363,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(C102-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D1CFCE) (tstamp 56CA7A6C)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D1CFCE) (tstamp 56CA7A6C)
     (at 59.944 70.612 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -392,14 +392,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 1 0 90) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(C103-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56CD1D5A) (tstamp 56CA7A72)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56CD1D5A) (tstamp 56CA7A72)
     (at 53.5 102.25)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -421,14 +421,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C201-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56CE694A) (tstamp 56CA7A78)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56CE694A) (tstamp 56CA7A78)
     (at 63.7 86.78 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -450,14 +450,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 78 /Power/VCC))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 56CE6956) (tstamp 56CA7A7E)
+  (module CE_Capacitor:C_1210 (layer F.Cu) (tedit 56CE6956) (tstamp 56CA7A7E)
     (at 66.55 86.78 270)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
@@ -479,14 +479,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 1.5 0 270) (size 1 2.5) (layers F.Cu F.Paste F.Mask)
       (net 78 /Power/VCC))
-    (model Capacitors_SMD.3dshapes/C_1210.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D1CDD7) (tstamp 56CA7A84)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D1CDD7) (tstamp 56CA7A84)
     (at 77.72 99.94)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -508,14 +508,14 @@
       (net 5 "Net-(C204-Pad1)"))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 56D1F569) (tstamp 56CA7A8A)
+  (module CE_Capacitor:C_1210 (layer F.Cu) (tedit 56D1F569) (tstamp 56CA7A8A)
     (at 56.6 87.25 90)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
@@ -537,14 +537,14 @@
       (net 6 "Net-(C205-Pad1)"))
     (pad 2 smd rect (at 1.5 0 90) (size 1 2.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_1210.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1210 (layer F.Cu) (tedit 56CD0819) (tstamp 56CA7A90)
+  (module CE_Capacitor:C_1210 (layer F.Cu) (tedit 56CD0819) (tstamp 56CA7A90)
     (at 57.25 98 270)
     (descr "Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1210")
@@ -566,14 +566,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1.5 0 270) (size 1 2.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_1210.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D1CE0E) (tstamp 56CA7A96)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D1CE0E) (tstamp 56CA7A96)
     (at 68.45 78.11 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -595,14 +595,14 @@
       (net 8 /Comm/NRST))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D1CFF2) (tstamp 56CA7A9C)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D1CFF2) (tstamp 56CA7A9C)
     (at 82.69 77.61 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -624,14 +624,14 @@
       (net 9 /Comm/WKUP1))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pcb:MICRO_B_CONN_10118193-0001LF (layer F.Cu) (tedit 56D1CE37) (tstamp 56CA7AAD)
+  (module CE_Connector:MICRO_B_CONN_10118193-0001LF (layer F.Cu) (tedit 56D1CE37) (tstamp 56CA7AAD)
     (at 60.25 109.75)
     (path /56C441A0/56CA2F99)
     (clearance 0.03)
@@ -665,7 +665,7 @@
       (net 1 GND))
   )
 
-  (module LEDs:LED_0805 (layer F.Cu) (tedit 56D1CDE5) (tstamp 56CA7ABF)
+  (module CE_Diode:LED_0805 (layer F.Cu) (tedit 56D1CDE5) (tstamp 56CA7ABF)
     (at 79.68 87.4)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
@@ -694,14 +694,14 @@
       (net 14 "Net-(D203-Pad2)"))
     (pad 1 smd rect (at -1.04902 0 180) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(D203-Pad1)"))
-    (model LEDs.3dshapes/LED_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Diode.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module LEDs:LED_0805 (layer F.Cu) (tedit 56CE6E22) (tstamp 56CA7AC5)
+  (module CE_Diode:LED_0805 (layer F.Cu) (tedit 56CE6E22) (tstamp 56CA7AC5)
     (at 79.68 89.46)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
@@ -730,14 +730,14 @@
       (net 16 "Net-(D204-Pad2)"))
     (pad 1 smd rect (at -1.04902 0 180) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 79 "Net-(D204-Pad1)"))
-    (model LEDs.3dshapes/LED_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Diode.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Inductors_NEOSID:Neosid_Inductor_SM1206 (layer F.Cu) (tedit 56D1CE2D) (tstamp 56CA7ACB)
+  (module CE_Inductor:Neosid_Inductor_SM1206 (layer F.Cu) (tedit 56D1CE2D) (tstamp 56CA7ACB)
     (at 59.9 102.82)
     (descr "Neosid, Inductor, SM1206, Festinduktivitaet, SMD,")
     (tags "Neosid, Inductor, SM1206, Festinduktivitaet, SMD,")
@@ -757,7 +757,7 @@
       (net 4 "Net-(C201-Pad2)"))
   )
 
-  (module Inductors_NEOSID:Neosid_Inductor_SM1206 (layer F.Cu) (tedit 56D23192) (tstamp 56CA7AD1)
+  (module CE_Inductor:Neosid_Inductor_SM1206 (layer F.Cu) (tedit 56D23192) (tstamp 56CA7AD1)
     (at 69.088 52.578 180)
     (descr "Neosid, Inductor, SM1206, Festinduktivitaet, SMD,")
     (tags "Neosid, Inductor, SM1206, Festinduktivitaet, SMD,")
@@ -777,7 +777,7 @@
       (net 7 /Comm/PWR))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x10 (layer F.Cu) (tedit 56CF04AF) (tstamp 56CA7ADF)
+  (module CE_Connector:Pin_Header_Straight_1x10 (layer F.Cu) (tedit 56CF04AF) (tstamp 56CA7ADF)
     (at 96.93 79.2)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -819,14 +819,14 @@
       (net 89 /PA9))
     (pad 10 thru_hole oval (at 0 22.86) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x10.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x10.wrl
       (at (xyz 0 -0.45 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x10 (layer F.Cu) (tedit 56D1D07C) (tstamp 56CA7AED)
+  (module CE_Connector:Pin_Header_Straight_1x10 (layer F.Cu) (tedit 56D1D07C) (tstamp 56CA7AED)
     (at 49.5 51)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -868,14 +868,14 @@
       (net 87 /PB14))
     (pad 10 thru_hole oval (at 0 22.86) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 88 /PB13))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x10.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x10.wrl
       (at (xyz 0 -0.45 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 56CF0317) (tstamp 56CA7AF5)
+  (module CE_Connector:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 56CF0317) (tstamp 56CA7AF5)
     (at 49.5 79)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -905,14 +905,14 @@
       (net 19 /ADC_IN9))
     (pad 4 thru_hole oval (at 0 7.62) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x04.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x04.wrl
       (at (xyz 0 -0.15 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 56CEFE40) (tstamp 56CA7AFD)
+  (module CE_Connector:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 56CEFE40) (tstamp 56CA7AFD)
     (at 64.25 42.418 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -942,14 +942,14 @@
       (net 22 /SPI1_MISO))
     (pad 4 thru_hole oval (at 0 7.62 270) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 23 /SPI1_MOSI))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x04.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x04.wrl
       (at (xyz 0 -0.15 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56CEFEB8) (tstamp 56CA7B03)
+  (module CE_Connector:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56CEFEB8) (tstamp 56CA7B03)
     (at 80.772 42.418 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -975,14 +975,14 @@
       (net 24 /USART1_TX))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 25 /USART1_RX))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56D1CB0E) (tstamp 56CA7B09)
+  (module CE_Connector:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56D1CB0E) (tstamp 56CA7B09)
     (at 96.93 68.02 180)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -1008,14 +1008,14 @@
       (net 26 /I2C2_SCL))
     (pad 2 thru_hole oval (at 0 2.54 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 27 /I2C2_SDA))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56D1CE45) (tstamp 56CA7B0F)
+  (module CE_Connector:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56D1CE45) (tstamp 56CA7B0F)
     (at 49.5 100)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -1041,14 +1041,14 @@
       (net 13 "Net-(D201-Pad2)"))
     (pad 2 thru_hole oval (at 0 2.54) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x06 (layer F.Cu) (tedit 56D1CCB5) (tstamp 56CA7B19)
+  (module CE_Connector:Pin_Header_Straight_1x06 (layer F.Cu) (tedit 56D1CCB5) (tstamp 56CA7B19)
     (at 96.93 61.11 180)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -1082,14 +1082,14 @@
       (net 8 /Comm/NRST))
     (pad 6 thru_hole oval (at 0 12.7 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 31 "Net-(P301-Pad6)"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x06.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x06.wrl
       (at (xyz 0 -0.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56D1CAC0) (tstamp 56CA7B1F)
+  (module CE_Connector:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 56D1CAC0) (tstamp 56CA7B1F)
     (at 96.93 74.73 180)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -1115,14 +1115,14 @@
       (net 32 /Comm/CLOCKOUT))
     (pad 2 thru_hole oval (at 0 2.54 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module pcb:GroveConnectorStraight_B4B-PH-K-S (layer F.Cu) (tedit 56D1CCCB) (tstamp 56CA7B2F)
+  (module CE_Connector:GroveConnectorStraight_B4B-PH-K-S (layer F.Cu) (tedit 56D1CCCB) (tstamp 56CA7B2F)
     (at 88.19 43.36)
     (path /56C8EF9B/56C8F028)
     (fp_text reference P303 (at -0.59 -3.16 180) (layer F.SilkS)
@@ -1149,7 +1149,7 @@
       (net 71 "Net-(P303-Pad4)"))
   )
 
-  (module pcb:GroveConnectorStraight_B4B-PH-K-S (layer F.Cu) (tedit 56CEDA79) (tstamp 56CA7B3F)
+  (module CE_Connector:GroveConnectorStraight_B4B-PH-K-S (layer F.Cu) (tedit 56CEDA79) (tstamp 56CA7B3F)
     (at 86.18 109.23 180)
     (path /56C8EF9B/56C8F176)
     (fp_text reference P304 (at 5.36 -0.6 270) (layer F.SilkS)
@@ -1176,7 +1176,7 @@
       (net 75 "Net-(P304-Pad4)"))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 56CEFE9D) (tstamp 56CA7B46)
+  (module CE_Connector:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 56CEFE9D) (tstamp 56CA7B46)
     (at 73.66 42.418 270)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -1204,14 +1204,14 @@
       (net 35 /Comm/BOOT0))
     (pad 3 thru_hole oval (at 0 5.08 270) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x03.wrl
       (at (xyz 0 -0.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDEC) (tstamp 56CA7B4C)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDEC) (tstamp 56CA7B4C)
     (at 74.71 83.32 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1233,14 +1233,14 @@
       (net 8 /Comm/NRST))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 36 "Net-(R201-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDDC) (tstamp 56CA7B52)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDDC) (tstamp 56CA7B52)
     (at 74.61 99.32 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1262,14 +1262,14 @@
       (net 5 "Net-(C204-Pad1)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(R202-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CE728A) (tstamp 56CA7B58)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CE728A) (tstamp 56CA7B58)
     (at 72.38 87.54 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1291,14 +1291,14 @@
       (net 38 "Net-(R203-Pad1)"))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CE728F) (tstamp 56CA7B5E)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CE728F) (tstamp 56CA7B5E)
     (at 69.46 85.78 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1320,14 +1320,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(R204-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDFC) (tstamp 56CA7B64)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDFC) (tstamp 56CA7B64)
     (at 77.73 83.32 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1349,14 +1349,14 @@
       (net 40 "Net-(R205-Pad1)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 41 /Power/TXD))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CE6E46) (tstamp 56CA7B6A)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CE6E46) (tstamp 56CA7B6A)
     (at 66.72 96.9 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1378,14 +1378,14 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(R206-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDF6) (tstamp 56CA7B70)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDF6) (tstamp 56CA7B70)
     (at 80.61 83.26 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1407,14 +1407,14 @@
       (net 43 "Net-(R207-Pad1)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 44 /Power/RXD))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CD1F1E) (tstamp 56CA7B76)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CD1F1E) (tstamp 56CA7B76)
     (at 83.79 87.28 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1436,14 +1436,14 @@
       (net 78 /Power/VCC))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(D203-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CE6E2A) (tstamp 56CA7B7C)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CE6E2A) (tstamp 56CA7B7C)
     (at 83.85 89.46 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1465,14 +1465,14 @@
       (net 78 /Power/VCC))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(D204-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CD1D58) (tstamp 56CA7B82)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CD1D58) (tstamp 56CA7B82)
     (at 53.5 105)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1494,14 +1494,14 @@
       (net 45 "Net-(R210-Pad1)"))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(CON201-Pad4)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CEF9F6) (tstamp 56CA7B88)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CEF9F6) (tstamp 56CA7B88)
     (at 93.08 61.8)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1523,14 +1523,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(P301-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CEF9FC) (tstamp 56CA7B8E)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CEF9FC) (tstamp 56CA7B8E)
     (at 93.88 48.35 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1552,14 +1552,14 @@
       (net 31 "Net-(P301-Pad6)"))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 46 /Comm/TRACE))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CEF9F2) (tstamp 56CA7B94)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CEF9F2) (tstamp 56CA7B94)
     (at 93.84 53.38 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1581,14 +1581,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 30 /Comm/SWDIO))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CEF9E9) (tstamp 56CA7B9A)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CEF9E9) (tstamp 56CA7B9A)
     (at 93.46 57 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1610,14 +1610,14 @@
       (net 29 /Comm/SWCLK))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CEF9ED) (tstamp 56CA7BA0)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CEF9ED) (tstamp 56CA7BA0)
     (at 89.03 62.74)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -1639,14 +1639,14 @@
       (net 47 /Comm/MC0))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 32 /Comm/CLOCKOUT))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 56D1CFAA) (tstamp 56CA7BD4)
+  (module CE_IC:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 56D1CFAA) (tstamp 56CA7BD4)
     (at 73.93 61.8)
     (descr "48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)")
     (tags "QFP 0.5")
@@ -1768,14 +1768,14 @@
       (net 1 GND))
     (pad 48 smd rect (at -2.75 -4.35 90) (size 1.3 0.25) (layers F.Cu F.Paste F.Mask)
       (net 7 /Comm/PWR))
-    (model Housings_QFP.3dshapes/LQFP-48_7x7mm_Pitch0.5mm.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_IC.3dshapes/LQFP-48_7x7mm_Pitch0.5mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 56CE7294) (tstamp 56CA7BFC)
+  (module CE_IC:QFN-32-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 56CE7294) (tstamp 56CA7BFC)
     (at 71.3 93.35)
     (descr "UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)")
     (tags "QFN 0.5")
@@ -1871,14 +1871,14 @@
       (net 1 GND) (solder_paste_margin_ratio -0.2))
     (pad 33 smd rect (at -0.8625 -0.8625) (size 1.725 1.725) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_paste_margin_ratio -0.2))
-    (model Housings_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_Pitch0.5mm.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_IC.3dshapes/QFN-32-1EP_5x5mm_Pitch0.5mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pcb:SOT-23 (layer F.Cu) (tedit 56CD0809) (tstamp 56CA7C08)
+  (module CE_Regulator:SOT-23 (layer F.Cu) (tedit 56CD0809) (tstamp 56CA7C08)
     (at 57.25 92.75)
     (path /56C441A0/56C4554C)
     (fp_text reference U202 (at 0 2.25) (layer F.SilkS)
@@ -1900,7 +1900,7 @@
       (net 6 "Net-(C205-Pad1)"))
   )
 
-  (module pcb:Pushbutton_B3F-1020 (layer F.Cu) (tedit 56D1CE14) (tstamp 56CA7C15)
+  (module CE_Switch:Pushbutton_B3F-1020 (layer F.Cu) (tedit 56D1CE14) (tstamp 56CA7C15)
     (at 61.95 78.09)
     (path /56C8EF9B/56CA5F8B)
     (fp_text reference U301 (at -0.15 -2.69) (layer F.SilkS)
@@ -1922,7 +1922,7 @@
     (pad 4 thru_hole circle (at -3.25 -2.25) (size 2 2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module pcb:Pushbutton_B3F-1020 (layer F.Cu) (tedit 56D1CE07) (tstamp 56CA7C22)
+  (module CE_Switch:Pushbutton_B3F-1020 (layer F.Cu) (tedit 56D1CE07) (tstamp 56CA7C22)
     (at 76.54 77.43)
     (path /56C8EF9B/56CA66A1)
     (fp_text reference U302 (at 0.36 -2.68) (layer F.SilkS)
@@ -1944,7 +1944,7 @@
     (pad 4 thru_hole circle (at -3.25 -2.25) (size 2 2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module pcb:Crystal_HC49_US (layer F.Cu) (tedit 56D1CEDF) (tstamp 56CA7C2C)
+  (module CE_Crystal:Crystal_HC49_US (layer F.Cu) (tedit 56D1CEDF) (tstamp 56CA7C2C)
     (at 59.944 61.214 90)
     (path /56BD4D54)
     (fp_text reference Y101 (at 2.114 2.906 90) (layer F.SilkS)
@@ -1963,7 +1963,7 @@
       (net 2 "Net-(C102-Pad2)"))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1CDAD) (tstamp 56CBC64D)
+  (module CE_MountingHole:MountingHole_3mm (layer F.Cu) (tedit 56D1CDAD) (tstamp 56CBC64D)
     (at 50.2 109.1)
     (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
@@ -1979,7 +1979,7 @@
       (net 63 "Net-(P107-Pad1)"))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1CD92) (tstamp 56CBC652)
+  (module CE_MountingHole:MountingHole_3mm (layer F.Cu) (tedit 56D1CD92) (tstamp 56CBC652)
     (at 96.3 43.15)
     (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
@@ -1995,7 +1995,7 @@
       (net 64 "Net-(P108-Pad1)"))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1CD9C) (tstamp 56CBC657)
+  (module CE_MountingHole:MountingHole_3mm (layer F.Cu) (tedit 56D1CD9C) (tstamp 56CBC657)
     (at 50.2 43.15)
     (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
@@ -2011,7 +2011,7 @@
       (net 65 "Net-(P109-Pad1)"))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1CDB6) (tstamp 56CBC65C)
+  (module CE_MountingHole:MountingHole_3mm (layer F.Cu) (tedit 56D1CDB6) (tstamp 56CBC65C)
     (at 96.3 109.1)
     (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
@@ -2027,7 +2027,7 @@
       (net 66 "Net-(P110-Pad1)"))
   )
 
-  (module LEDs:LED_0805 (layer F.Cu) (tedit 56CE5731) (tstamp 56CBD119)
+  (module CE_Diode:LED_0805 (layer F.Cu) (tedit 56CE5731) (tstamp 56CBD119)
     (at 60.75 99.25 90)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
@@ -2056,14 +2056,14 @@
       (net 67 "Net-(D205-Pad2)"))
     (pad 1 smd rect (at -1.04902 0 270) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LEDs.3dshapes/LED_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Diode.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CD1CEA) (tstamp 56CBD11F)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CD1CEA) (tstamp 56CBD11F)
     (at 60.29 93.91 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2085,14 +2085,14 @@
       (net 67 "Net-(D205-Pad2)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 7 /Comm/PWR))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDCC) (tstamp 56CBD125)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDCC) (tstamp 56CBD125)
     (at 82.08 104.38 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2114,14 +2114,14 @@
       (net 72 "Net-(P304-Pad1)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDCB) (tstamp 56CBD12B)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDCB) (tstamp 56CBD12B)
     (at 84.54 104.49 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2143,14 +2143,14 @@
       (net 73 "Net-(P304-Pad2)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 7 /Comm/PWR))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDC4) (tstamp 56CBD131)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDC4) (tstamp 56CBD131)
     (at 87 104.49 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2172,14 +2172,14 @@
       (net 74 "Net-(P304-Pad3)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 33 /Comm/SCL))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CDC8) (tstamp 56CBD137)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CDC8) (tstamp 56CBD137)
     (at 89.51 104.55 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2201,14 +2201,14 @@
       (net 75 "Net-(P304-Pad4)"))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 34 /Comm/SDA))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CFB2) (tstamp 56CBD13D)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CFB2) (tstamp 56CBD13D)
     (at 88.9 47.752 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2230,14 +2230,14 @@
       (net 68 "Net-(P303-Pad1)"))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56D1CFB0) (tstamp 56CBD143)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56D1CFB0) (tstamp 56CBD143)
     (at 86.36 47.752 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2259,14 +2259,14 @@
       (net 69 "Net-(P303-Pad2)"))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 7 /Comm/PWR))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CED9F0) (tstamp 56CBD149)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CED9F0) (tstamp 56CBD149)
     (at 83.82 47.752 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2288,14 +2288,14 @@
       (net 70 "Net-(P303-Pad3)"))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 33 /Comm/SCL))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 56CEFD2E) (tstamp 56CBD14F)
+  (module CE_Resistor:R_0805 (layer F.Cu) (tedit 56CEFD2E) (tstamp 56CBD14F)
     (at 81.28 47.752 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -2317,7 +2317,7 @@
       (net 71 "Net-(P303-Pad4)"))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 34 /Comm/SDA))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Resistor.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2384,7 +2384,7 @@
       (net 78 /Power/VCC))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 56CEFC4B) (tstamp 56CBD783)
+  (module CE_Connector:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 56CEFC4B) (tstamp 56CBD783)
     (at 49.5 91)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -2412,14 +2412,14 @@
       (net 6 "Net-(C205-Pad1)"))
     (pad 3 thru_hole oval (at 0 5.08) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 76 /Power/EXT_PWR))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Connector.3dshapes/Pin_Header_Straight_1x03.wrl
       (at (xyz 0 -0.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D23182) (tstamp 56D22E0C)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D23182) (tstamp 56D22E0C)
     (at 64.65 49.15 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -2441,14 +2441,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1 0 90) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 56D231A0) (tstamp 56D22E12)
+  (module CE_Capacitor:C_1206 (layer F.Cu) (tedit 56D231A0) (tstamp 56D22E12)
     (at 67 48.6 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
@@ -2470,14 +2470,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1.5 0 90) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_1206.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 56D231A2) (tstamp 56D22E18)
+  (module CE_Capacitor:C_1206 (layer F.Cu) (tedit 56D231A2) (tstamp 56D22E18)
     (at 69.45 48.6 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
@@ -2499,14 +2499,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1.5 0 90) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_1206.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 56D24C97) (tstamp 56D22E1E)
+  (module CE_Capacitor:C_0805 (layer F.Cu) (tedit 56D24C97) (tstamp 56D22E1E)
     (at 82.85 68.5 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -2528,14 +2528,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 56D24C9B) (tstamp 56D22E24)
+  (module CE_Capacitor:C_1206 (layer F.Cu) (tedit 56D24C9B) (tstamp 56D22E24)
     (at 85.1 69 270)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
@@ -2557,14 +2557,14 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1.5 0 270) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_1206.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 56D24C91) (tstamp 56D22E2A)
+  (module CE_Capacitor:C_1206 (layer F.Cu) (tedit 56D24C91) (tstamp 56D22E2A)
     (at 80.55 69 270)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
@@ -2586,7 +2586,7 @@
       (net 7 /Comm/PWR))
     (pad 2 smd rect (at 1.5 0 270) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_1206.wrl
+    (model ${KIPRJMOD}/../CE_KiCad_Lib/packages3d/CE_Capacitor.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
