@@ -2324,7 +2324,7 @@
     )
   )
 
-  (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 56CD075E) (tstamp 56CA7AB3)
+  (module CE_Diode:SOD-123 (layer F.Cu) (tedit 56CD075E) (tstamp 56CA7AB3)
     (at 53.5 95.5 270)
     (descr SOD-123)
     (tags SOD-123)
@@ -2354,7 +2354,7 @@
       (net 13 "Net-(D201-Pad2)"))
   )
 
-  (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 56D1F372) (tstamp 56CA7AB9)
+  (module CE_Diode:SOD-123 (layer F.Cu) (tedit 56D1F372) (tstamp 56CA7AB9)
     (at 53.7 87.25 90)
     (descr SOD-123)
     (tags SOD-123)
