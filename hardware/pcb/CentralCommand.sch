@@ -57,34 +57,9 @@ $EndDescr
 Text Notes 7400 7500 0    60   ~ 0
 CentralCommand
 Text Notes 10600 7650 0    60   ~ 0
-v2
+v2 ?
 Text Notes 8150 7650 0    60   ~ 0
-2.9.2016
-$Comp
-L INDUCTOR L101
-U 1 1 56BABB4F
-P 6200 800
-F 0 "L101" V 6150 800 50  0000 C CNN
-F 1 "10uh" V 6300 800 50  0000 C CNN
-F 2 "CE_Inductor:Neosid_Inductor_SM1206" H 6200 800 50  0001 C CNN
-F 3 "" H 6200 800 50  0000 C CNN
-F 4 "AIML-1206-100K-T" H 6200 800 60  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-search/en?keywords=535-11657-1-ND" H 6200 800 60  0001 C CNN "SupplierLink"
-F 6 "http://www.abracon.com/Magnetics/chips/AIML-1206.pdf" H 6200 800 60  0001 C CNN "DatasheetLink"
-	1    6200 800 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C101
-U 1 1 56BABC41
-P 6950 1050
-F 0 "C101" H 6975 1150 50  0000 L CNN
-F 1 ".1uf" H 6975 950 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 6988 900 50  0001 C CNN
-F 3 "" H 6950 1050 50  0000 C CNN
-	1    6950 1050
-	1    0    0    -1  
-$EndComp
+2.9.2016 / 1.2.2017?
 Wire Wire Line
 	5450 1050 5450 800 
 Wire Wire Line
@@ -182,42 +157,6 @@ Text Notes 5450 600  0    60   ~ 0
 I2C2 only on C8
 Text Notes 2900 5250 0    60   ~ 0
 TODO: Figure out comm/power header
-$Comp
-L Crystal Y101
-U 1 1 56BD4D54
-P 7800 1800
-F 0 "Y101" H 7800 1950 50  0000 C CNN
-F 1 "Crystal" H 7800 1650 50  0000 C CNN
-F 2 "CE_Crystal:Crystal_HC49_US" H 7800 1800 50  0001 C CNN
-F 3 "" H 7800 1800 50  0000 C CNN
-F 4 "9C-8.000MEEJ-T" H 7800 1800 60  0001 C CNN "MPN"
-F 5 "http://www.digikey.com/product-search/en?keywords=887-1263-1-ND" H 7800 1800 60  0001 C CNN "SupplierLink"
-F 6 "http://www.txccrystal.com/images/pdf/9c-accuracy.pdf" H 7800 1800 60  0001 C CNN "DatasheetLink"
-	1    7800 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C102
-U 1 1 56BD4DD1
-P 8250 1550
-F 0 "C102" H 8275 1650 50  0000 L CNN
-F 1 "18pf" H 8275 1450 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 8288 1400 50  0001 C CNN
-F 3 "" H 8250 1550 50  0000 C CNN
-	1    8250 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L C C103
-U 1 1 56BD4E3E
-P 8250 2050
-F 0 "C103" H 8275 2150 50  0000 L CNN
-F 1 "18pf" H 8275 1950 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 8288 1900 50  0001 C CNN
-F 3 "" H 8250 2050 50  0000 C CNN
-	1    8250 2050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6850 1700 6950 1700
 Wire Wire Line
@@ -694,54 +633,10 @@ Text Notes 5400 6600 0    60   ~ 0
 SERIAL
 Text Label 8450 6050 0    60   ~ 0
 TRACE
-$Comp
-L CONN_01X01 P107
-U 1 1 56CBC562
-P 10350 900
-F 0 "P107" H 10350 1000 50  0000 C CNN
-F 1 "CONN_01X01" V 10450 900 50  0000 C CNN
-F 2 "CE_MountingHole:MountingHole_3mm" H 10350 900 50  0001 C CNN
-F 3 "" H 10350 900 50  0000 C CNN
-	1    10350 900 
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10150 900 
-$Comp
-L CONN_01X01 P108
-U 1 1 56CBCB01
-P 10350 1450
-F 0 "P108" H 10350 1550 50  0000 C CNN
-F 1 "CONN_01X01" V 10450 1450 50  0000 C CNN
-F 2 "CE_MountingHole:MountingHole_3mm" H 10350 1450 50  0001 C CNN
-F 3 "" H 10350 1450 50  0000 C CNN
-	1    10350 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P110
-U 1 1 56CBCBBF
-P 10800 1450
-F 0 "P110" H 10800 1550 50  0000 C CNN
-F 1 "CONN_01X01" V 10900 1450 50  0000 C CNN
-F 2 "CE_MountingHole:MountingHole_3mm" H 10800 1450 50  0001 C CNN
-F 3 "" H 10800 1450 50  0000 C CNN
-	1    10800 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P109
-U 1 1 56CBCC78
-P 10800 900
-F 0 "P109" H 10800 1000 50  0000 C CNN
-F 1 "CONN_01X01" V 10900 900 50  0000 C CNN
-F 2 "CE_MountingHole:MountingHole_3mm" H 10800 900 50  0001 C CNN
-F 3 "" H 10800 900 50  0000 C CNN
-	1    10800 900 
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10600 900 
-NoConn ~ 10600 1450
-NoConn ~ 10150 1450
+NoConn ~ 9900 950 
+NoConn ~ 10500 950 
+NoConn ~ 10500 1450
+NoConn ~ 9900 1400
 Wire Notes Line
 	9350 600  9350 1850
 Wire Notes Line
@@ -844,124 +739,58 @@ Text Label 2350 3500 0    60   ~ 0
 PA5
 Text Label 2350 3350 0    60   ~ 0
 PA4
-$Comp
-L C C104
-U 1 1 56D230C0
-P 1850 1150
-F 0 "C104" H 1875 1250 50  0000 L CNN
-F 1 "0.1u" H 1875 1050 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 1888 1000 50  0001 C CNN
-F 3 "" H 1850 1150 50  0000 C CNN
-	1    1850 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C105
-U 1 1 56D23A7A
-P 2150 1150
-F 0 "C105" H 2175 1250 50  0000 L CNN
-F 1 "1u" H 2175 1050 50  0000 L CNN
-F 2 "CE_Capacitor:C_1206" H 2188 1000 50  0001 C CNN
-F 3 "" H 2150 1150 50  0000 C CNN
-	1    2150 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C106
-U 1 1 56D23BFD
-P 2400 1150
-F 0 "C106" H 2425 1250 50  0000 L CNN
-F 1 "10u" H 2425 1050 50  0000 L CNN
-F 2 "CE_Capacitor:C_1206" H 2438 1000 50  0001 C CNN
-F 3 "" H 2400 1150 50  0000 C CNN
-	1    2400 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C107
-U 1 1 56D23E62
-P 2850 1150
-F 0 "C107" H 2875 1250 50  0000 L CNN
-F 1 "0.1u" H 2875 1050 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 2888 1000 50  0001 C CNN
-F 3 "" H 2850 1150 50  0000 C CNN
-	1    2850 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C108
-U 1 1 56D23E68
-P 3150 1150
-F 0 "C108" H 3175 1250 50  0000 L CNN
-F 1 "1u" H 3175 1050 50  0000 L CNN
-F 2 "CE_Capacitor:C_1206" H 3188 1000 50  0001 C CNN
-F 3 "" H 3150 1150 50  0000 C CNN
-	1    3150 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C109
-U 1 1 56D23E6E
-P 3400 1150
-F 0 "C109" H 3425 1250 50  0000 L CNN
-F 1 "10u" H 3425 1050 50  0000 L CNN
-F 2 "CE_Capacitor:C_1206" H 3438 1000 50  0001 C CNN
-F 3 "" H 3400 1150 50  0000 C CNN
-	1    3400 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1850 1000 1850 850 
+	1750 1050 1750 600 
 Wire Wire Line
-	3400 850  3400 1000
+	3650 600  3650 1050
 Wire Wire Line
-	1850 1300 1850 1500
+	1750 1350 1750 1550
 Wire Wire Line
-	1850 1500 3400 1500
+	1750 1550 3650 1550
 Wire Wire Line
-	3400 1500 3400 1300
+	3650 1550 3650 1350
 Wire Wire Line
-	2150 1300 2150 1500
-Connection ~ 2150 1500
+	2150 1350 2150 1550
+Connection ~ 2150 1550
 Wire Wire Line
-	2400 1300 2400 1500
-Connection ~ 2400 1500
+	2500 1350 2500 1550
+Connection ~ 2500 1550
 Wire Wire Line
-	2850 1300 2850 1500
-Connection ~ 2850 1500
+	2950 1350 2950 1550
+Connection ~ 2950 1550
 Wire Wire Line
-	3150 1300 3150 1500
-Connection ~ 3150 1500
+	3300 1550 3300 1350
+Connection ~ 3300 1550
 Wire Wire Line
-	3150 1000 3150 850 
-Connection ~ 3150 850 
+	3300 600  3300 1050
+Connection ~ 3300 600 
 Wire Wire Line
-	2850 1000 2850 850 
-Connection ~ 2850 850 
+	2950 600  2950 1050
+Connection ~ 2950 600 
 Wire Wire Line
-	2400 1000 2400 850 
-Connection ~ 2400 850 
-Text Label 2500 850  0    60   ~ 0
+	2500 600  2500 1050
+Connection ~ 2500 600 
+Text Label 2650 600  0    60   ~ 0
 PWR
 $Comp
 L GND #PWR08
 U 1 1 56D24949
-P 2650 1600
-F 0 "#PWR08" H 2650 1350 50  0001 C CNN
-F 1 "GND" H 2650 1450 50  0000 C CNN
-F 2 "" H 2650 1600 50  0000 C CNN
-F 3 "" H 2650 1600 50  0000 C CNN
-	1    2650 1600
+P 2750 1650
+F 0 "#PWR08" H 2750 1400 50  0001 C CNN
+F 1 "GND" H 2750 1500 50  0000 C CNN
+F 2 "" H 2750 1650 50  0000 C CNN
+F 3 "" H 2750 1650 50  0000 C CNN
+	1    2750 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 1600 2650 1500
-Connection ~ 2650 1500
+	2750 1650 2750 1550
+Connection ~ 2750 1550
 Wire Wire Line
-	2150 1000 2150 850 
-Connection ~ 2150 850 
+	2150 1050 2150 600 
+Connection ~ 2150 600 
 Wire Wire Line
-	1850 850  3400 850 
+	1750 600  3650 600 
 Text Label 6700 800  0    60   ~ 0
 VDDA
 $Sheet
@@ -981,4 +810,228 @@ F10 "MC0" I R 10450 5900 60
 F11 "BOOT0" I R 10450 6100 60 
 F12 "TRACE" I L 8850 6050 60 
 $EndSheet
+$Comp
+L 9C-8.000MEEJ-T Y101
+U 1 1 586AF6C4
+P 7800 1800
+F 0 "Y101" H 7800 1950 50  0000 C CNN
+F 1 "9C-8.000MEEJ-T" H 7800 2050 50  0000 C CNN
+F 2 "CE_Crystal:Crystal_HC49_US" H 8350 2600 50  0001 C CNN
+F 3 "" H 7800 1800 50  0000 C CNN
+F 4 "8MHZ" H 7800 1650 60  0000 C CNN "Specification"
+F 5 "9C-8.000MEEJ-T" H 8200 2800 60  0001 C CNN "MPN"
+F 6 "CRYSTAL 8.0000MHZ 18PF SMD" H 8500 2700 60  0001 C CNN "Description"
+F 7 "http://www.digikey.com/product-search/en?keywords=887-1263-1-ND" H 9450 2500 60  0001 C CNN "SupplierLink"
+F 8 "http://www.txccrystal.com/images/pdf/9c-accuracy.pdf" H 9100 2400 60  0001 C CNN "DatasheetLink"
+	1    7800 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 08055C104JAT2A C101
+U 1 1 586B0885
+P 6950 1050
+F 0 "C101" H 6975 1150 50  0000 L CNN
+F 1 "08055C104JAT2A" V 7200 700 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 7400 1950 50  0001 C CNN
+F 3 "" H 6975 1150 50  0000 C CNN
+F 4 ".1uf" H 7050 950 60  0000 C CNN "Specification"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 7650 2050 60  0001 C CNN "Description"
+F 6 "08055C104JAT2A" H 7500 2150 60  0001 C CNN "MPN"
+F 7 "http://datasheets.avx.com/X7RDielectric.pdf" H 8000 1750 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144" H 9450 1850 60  0001 C CNN "SupplierLink"
+	1    6950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L AIML-1206-100K-T L101
+U 1 1 586B1302
+P 6200 800
+F 0 "L101" V 6150 650 50  0000 C CNN
+F 1 "AIML-1206-100K-T" V 6300 800 50  0000 C CNN
+F 2 "CE_Inductor:Neosid_Inductor_SM1206" H 6950 1550 50  0001 C CNN
+F 3 "" H 6200 800 50  0000 C CNN
+F 4 "10uH" V 6150 950 60  0000 C CNN "Specification"
+F 5 "AIML-1206-100K-T" H 6750 1750 60  0001 C CNN "MPN"
+F 6 "FIXED IND 10UH 25MA 800 MOHM SMD" H 7150 1650 60  0001 C CNN "Description"
+F 7 "http://www.abracon.com/Magnetics/chips/AIML-1206.pdf" H 7600 1350 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-search/en?keywords=535-11657-1-ND" H 8000 1450 60  0001 C CNN "SupplierLink"
+	1    6200 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 3MM_HOLE P107
+U 1 1 586B1FE6
+P 10100 950
+F 0 "P107" H 10100 1050 50  0000 C CNN
+F 1 "3MM_HOLE" V 10250 950 50  0000 C CNN
+F 2 "CE_MountingHole:MountingHole_3mm" H 10800 1550 50  0001 C CNN
+F 3 "" H 10100 950 50  0000 C CNN
+F 4 "3MM Mounting Hole" H 10550 1650 60  0001 C CNN "Description"
+	1    10100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3MM_HOLE P108
+U 1 1 586B20C2
+P 10100 1400
+F 0 "P108" H 10100 1500 50  0000 C CNN
+F 1 "3MM_HOLE" V 10250 1400 50  0000 C CNN
+F 2 "CE_MountingHole:MountingHole_3mm" H 10800 2000 50  0001 C CNN
+F 3 "" H 10100 1400 50  0000 C CNN
+F 4 "3MM Mounting Hole" H 10550 2100 60  0001 C CNN "Description"
+	1    10100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3MM_HOLE P109
+U 1 1 586B2192
+P 10700 950
+F 0 "P109" H 10700 1050 50  0000 C CNN
+F 1 "3MM_HOLE" V 10850 950 50  0000 C CNN
+F 2 "CE_MountingHole:MountingHole_3mm" H 11400 1550 50  0001 C CNN
+F 3 "" H 10700 950 50  0000 C CNN
+F 4 "3MM Mounting Hole" H 11150 1650 60  0001 C CNN "Description"
+	1    10700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3MM_HOLE P110
+U 1 1 586B2263
+P 10700 1450
+F 0 "P110" H 10700 1550 50  0000 C CNN
+F 1 "3MM_HOLE" V 10850 1450 50  0000 C CNN
+F 2 "CE_MountingHole:MountingHole_3mm" H 11400 2050 50  0001 C CNN
+F 3 "" H 10700 1450 50  0000 C CNN
+F 4 "3MM Mounting Hole" H 11150 2150 60  0001 C CNN "Description"
+	1    10700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 08055C104JAT2A C104
+U 1 1 586B3562
+P 1750 1200
+F 0 "C104" V 1800 1300 50  0000 L CNN
+F 1 "08055C104JAT2A" V 1600 900 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 2200 2100 50  0001 C CNN
+F 3 "" H 1775 1300 50  0000 C CNN
+F 4 ".1uF" V 1800 1050 60  0000 C CNN "Specification"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 2450 2200 60  0001 C CNN "Description"
+F 6 "08055C104JAT2A" H 2300 2300 60  0001 C CNN "MPN"
+F 7 "http://datasheets.avx.com/X7RDielectric.pdf" H 2800 1900 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144" H 4250 2000 60  0001 C CNN "SupplierLink"
+	1    1750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 08055C104JAT2A C107
+U 1 1 586B3656
+P 2950 1200
+F 0 "C107" V 3000 1300 50  0000 L CNN
+F 1 "08055C104JAT2A" V 2800 900 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 3400 2100 50  0001 C CNN
+F 3 "" H 2975 1300 50  0000 C CNN
+F 4 ".1uF" V 3000 1050 60  0000 C CNN "Specification"
+F 5 "CAP CER 0.1UF 50V X7R 0805" H 3650 2200 60  0001 C CNN "Description"
+F 6 "08055C104JAT2A" H 3500 2300 60  0001 C CNN "MPN"
+F 7 "http://datasheets.avx.com/X7RDielectric.pdf" H 4000 1900 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144" H 5450 2000 60  0001 C CNN "SupplierLink"
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CC1206KKX7R8BB106 C106
+U 1 1 586B486D
+P 2500 1200
+F 0 "C106" V 2550 1300 50  0000 L CNN
+F 1 "CC1206KKX7R8BB106" V 2350 850 50  0000 L CNN
+F 2 "CE_Capacitor:C_1206" H 2950 2100 50  0001 C CNN
+F 3 "" H 2525 1300 50  0000 C CNN
+F 4 "10uF" V 2550 1000 60  0000 C CNN "Specification"
+F 5 "CAP CER 10UF 25V X7R 1206" H 3200 2200 60  0001 C CNN "Description"
+F 6 "CC1206KKX7R8BB106" H 3050 2300 60  0001 C CNN "MPN"
+F 7 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_16.pdf" H 3550 1900 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/yageo/CC1206KKX7R8BB106/311-1959-1-ND/5195861" H 5000 2000 60  0001 C CNN "SupplierLink"
+	1    2500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CC1206KKX7R8BB106 C109
+U 1 1 586B495F
+P 3650 1200
+F 0 "C109" V 3700 1300 50  0000 L CNN
+F 1 "CC1206KKX7R8BB106" V 3500 850 50  0000 L CNN
+F 2 "CE_Capacitor:C_1206" H 4100 2100 50  0001 C CNN
+F 3 "" H 3675 1300 50  0000 C CNN
+F 4 "10uF" V 3700 1000 60  0000 C CNN "Specification"
+F 5 "CAP CER 10UF 25V X7R 1206" H 4350 2200 60  0001 C CNN "Description"
+F 6 "CC1206KKX7R8BB106" H 4200 2300 60  0001 C CNN "MPN"
+F 7 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_16.pdf" H 4700 1900 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/yageo/CC1206KKX7R8BB106/311-1959-1-ND/5195861" H 6150 2000 60  0001 C CNN "SupplierLink"
+	1    3650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 08055A180JAT2A C102
+U 1 1 586B8FAA
+P 8250 1550
+F 0 "C102" V 8300 1600 50  0000 L CNN
+F 1 "08055A180JAT2A" V 8100 1300 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 8700 2450 50  0001 C CNN
+F 3 "" H 8275 1650 50  0000 C CNN
+F 4 "18pf" V 8300 1400 60  0000 C CNN "Specification"
+F 5 "MLCC - SMD/SMT 50V 18pF C0G 0805 5% Tol" H 8950 2550 60  0001 C CNN "Description"
+F 6 "08055A180JAT2A" H 8800 2650 60  0001 C CNN "MPN"
+F 7 "http://www.mouser.com/ds/2/40/C0GNP0-Dielectric-951274.pdf" H 10050 2250 60  0001 C CNN "DatasheetLink"
+F 8 "http://www.mouser.com/Search/ProductDetail.aspx?R=08055A180JAT2Avirtualkey58110000virtualkey581-08055A180J" H 11350 2350 60  0001 C CNN "SupplierLink"
+	1    8250 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L 08055A180JAT2A C103
+U 1 1 586B909A
+P 8250 2050
+F 0 "C103" V 8300 2100 50  0000 L CNN
+F 1 "08055A180JAT2A" V 8400 1750 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 8700 2950 50  0001 C CNN
+F 3 "" H 8275 2150 50  0000 C CNN
+F 4 "18pf" V 8300 1900 60  0000 C CNN "Specification"
+F 5 "MLCC - SMD/SMT 50V 18pF C0G 0805 5% Tol" H 8950 3050 60  0001 C CNN "Description"
+F 6 "08055A180JAT2A" H 8800 3150 60  0001 C CNN "MPN"
+F 7 "http://www.mouser.com/ds/2/40/C0GNP0-Dielectric-951274.pdf" H 10050 2750 60  0001 C CNN "DatasheetLink"
+F 8 "http://www.mouser.com/Search/ProductDetail.aspx?R=08055A180JAT2Avirtualkey58110000virtualkey581-08055A180J" H 11350 2850 60  0001 C CNN "SupplierLink"
+	1    8250 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C1206C105M4RACTU C105
+U 1 1 586BA4D6
+P 2150 1200
+F 0 "C105" V 2200 1300 50  0000 L CNN
+F 1 "C1206C105M4RACTU" V 2000 900 50  0000 L CNN
+F 2 "CE_Capacitor:C_1206" H 2600 2100 50  0001 C CNN
+F 3 "" H 2175 1300 50  0000 C CNN
+F 4 "1uF" V 2200 1050 60  0000 C CNN "Specification"
+F 5 "CAP CER 1UF 16V X7R 1206" H 2850 2200 60  0001 C CNN "Description"
+F 6 "C1206C105M4RACTU" H 2700 2300 60  0001 C CNN "MPN"
+F 7 "http://www.kemet.com/docfinder?Partnumber=C1206C105M4RACTU" H 3200 1900 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/kemet/C1206C105M4RACTU/399-8150-1-ND/3471873" H 4650 2000 60  0001 C CNN "SupplierLink"
+	1    2150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C1206C105M4RACTU C108
+U 1 1 586BA638
+P 3300 1200
+F 0 "C108" V 3350 1300 50  0000 L CNN
+F 1 "C1206C105M4RACTU" V 3150 900 50  0000 L CNN
+F 2 "CE_Capacitor:C_1206" H 3750 2100 50  0001 C CNN
+F 3 "" H 3325 1300 50  0000 C CNN
+F 4 "C1206C105M4RACTU" H 3850 2300 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C1206C105M4RACTU/399-8150-1-ND/3471873" H 5800 2000 60  0001 C CNN "SupplierLink"
+F 6 "http://www.kemet.com/docfinder?Partnumber=C1206C105M4RACTU" H 4350 1900 60  0001 C CNN "DatasheetLink"
+F 7 "1uF" V 3350 1050 60  0000 C CNN "Specification"
+F 8 "CAP CER 1UF 16V X7R 1206" H 4000 2200 60  0001 C CNN "Description"
+	1    3300 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
