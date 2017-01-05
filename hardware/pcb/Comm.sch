@@ -59,7 +59,7 @@ L CONN_01X04 P303
 U 1 1 56C8F028
 P 6100 2300
 F 0 "P303" H 6100 2550 50  0000 C CNN
-F 1 "CONN_01X04" V 6200 2300 50  0000 C CNN
+F 1 "CONN_01X04" V 6200 2250 50  0000 C CNN
 F 2 "CE_Connector:GroveConnectorStraight_B4B-PH-K-S" H 6100 2300 50  0001 C CNN
 F 3 "" H 6100 2300 50  0000 C CNN
 F 4 "S4B-PH-K-S(LF)(SN)" H 6100 2300 60  0001 C CNN "MPN"
@@ -71,15 +71,15 @@ $EndComp
 $Comp
 L CONN_01X04 P304
 U 1 1 56C8F176
-P 5650 3800
-F 0 "P304" H 5650 4050 50  0000 C CNN
-F 1 "CONN_01X04" V 5750 3800 50  0000 C CNN
-F 2 "CE_Connector:GroveConnectorStraight_B4B-PH-K-S" H 5650 3800 50  0001 C CNN
-F 3 "" H 5650 3800 50  0000 C CNN
-F 4 "S4B-PH-K-S(LF)(SN)" H 5650 3800 60  0001 C CNN "MPN"
-F 5 "http://www.digikey.com/product-search/en?keywords=455-1721-ND" H 5650 3800 60  0001 C CNN "SupplierLink"
-F 6 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5650 3800 60  0001 C CNN "DatasheetLink"
-	1    5650 3800
+P 6650 3800
+F 0 "P304" H 6650 4050 50  0000 C CNN
+F 1 "CONN_01X04" V 6750 3800 50  0000 C CNN
+F 2 "CE_Connector:GroveConnectorStraight_B4B-PH-K-S" H 6650 3800 50  0001 C CNN
+F 3 "" H 6650 3800 50  0000 C CNN
+F 4 "S4B-PH-K-S(LF)(SN)" H 6650 3800 60  0001 C CNN "MPN"
+F 5 "http://www.digikey.com/product-search/en?keywords=455-1721-ND" H 6650 3800 60  0001 C CNN "SupplierLink"
+F 6 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6650 3800 60  0001 C CNN "DatasheetLink"
+	1    6650 3800
 	1    0    0    -1  
 $EndComp
 Text HLabel 3350 1950 0    60   Input ~ 0
@@ -108,58 +108,14 @@ F 3 "" H 900 5200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R301
-U 1 1 56C9BCEF
-P 1150 4650
-F 0 "R301" V 1230 4650 50  0000 C CNN
-F 1 "0" V 1150 4650 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 1080 4650 50  0001 C CNN
-F 3 "" H 1150 4650 50  0000 C CNN
-	1    1150 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R303
-U 1 1 56C9BD05
-P 1400 4650
-F 0 "R303" V 1480 4650 50  0000 C CNN
-F 1 "100k" V 1400 4650 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 1330 4650 50  0001 C CNN
-F 3 "" H 1400 4650 50  0000 C CNN
-	1    1400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R304
-U 1 1 56C9BD0F
-P 1900 5350
-F 0 "R304" V 1980 5350 50  0000 C CNN
-F 1 "100k" V 1900 5350 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 1830 5350 50  0001 C CNN
-F 3 "" H 1900 5350 50  0000 C CNN
-	1    1900 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR019
 U 1 1 56C9BD18
-P 1900 5600
-F 0 "#PWR019" H 1900 5350 50  0001 C CNN
-F 1 "GND" H 1900 5450 50  0000 C CNN
-F 2 "" H 1900 5600 50  0000 C CNN
-F 3 "" H 1900 5600 50  0000 C CNN
-	1    1900 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R302
-U 1 1 56C9BD22
-P 1200 5750
-F 0 "R302" V 1280 5750 50  0000 C CNN
-F 1 "0" V 1200 5750 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 1130 5750 50  0001 C CNN
-F 3 "" H 1200 5750 50  0000 C CNN
-	1    1200 5750
+P 1900 5850
+F 0 "#PWR019" H 1900 5600 50  0001 C CNN
+F 1 "GND" H 1900 5700 50  0000 C CNN
+F 2 "" H 1900 5850 50  0000 C CNN
+F 3 "" H 1900 5850 50  0000 C CNN
+	1    1900 5850
 	1    0    0    -1  
 $EndComp
 Text HLabel 2050 4900 2    60   Input ~ 0
@@ -170,9 +126,9 @@ Text HLabel 1450 5350 2    60   Input ~ 0
 NRST
 Text Label 4800 3200 3    60   ~ 0
 PWR
-Text Label 850  4400 0    60   ~ 0
+Text Label 850  4100 0    60   ~ 0
 PWR
-Text HLabel 1100 6050 0    60   Input ~ 0
+Text HLabel 1100 6200 0    60   Input ~ 0
 TRACE
 $Comp
 L GND #PWR020
@@ -183,17 +139,6 @@ F 1 "GND" H 950 7150 50  0000 C CNN
 F 2 "" H 950 7300 50  0000 C CNN
 F 3 "" H 950 7300 50  0000 C CNN
 	1    950  7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C301
-U 1 1 56C9FEAA
-P 950 6950
-F 0 "C301" H 975 7050 50  0000 L CNN
-F 1 "0.1uf" H 975 6850 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 988 6800 50  0001 C CNN
-F 3 "" H 950 6950 50  0000 C CNN
-	1    950  6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -216,17 +161,6 @@ F 1 "GND" H 2400 7150 50  0000 C CNN
 F 2 "" H 2400 7300 50  0000 C CNN
 F 3 "" H 2400 7300 50  0000 C CNN
 	1    2400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C302
-U 1 1 56C9FED4
-P 2400 6950
-F 0 "C302" H 2425 7050 50  0000 L CNN
-F 1 "0.1uf" H 2425 6850 50  0000 L CNN
-F 2 "CE_Capacitor:C_0805" H 2438 6800 50  0001 C CNN
-F 3 "" H 2400 6950 50  0000 C CNN
-	1    2400 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -257,17 +191,6 @@ Text Label 2800 7450 1    60   ~ 0
 PWR
 Text Notes 950  6450 0    60   ~ 0
 RESET Button
-$Comp
-L R R305
-U 1 1 56CA9AA3
-P 3950 6950
-F 0 "R305" V 4030 6950 50  0000 C CNN
-F 1 "0" V 3950 6950 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 3880 6950 50  0001 C CNN
-F 3 "" H 3950 6950 50  0000 C CNN
-	1    3950 6950
-	0    1    1    0   
-$EndComp
 $Comp
 L CONN_01X02 P302
 U 1 1 56CA9AAC
@@ -328,7 +251,7 @@ Text Label 550  6550 0    60   ~ 0
 NRST
 Text Label 1350 5350 2    60   ~ 0
 NRST
-Text Notes 600  4250 0    60   ~ 0
+Text Notes 650  3850 0    60   ~ 0
 Programming Header
 Text Notes 1800 6450 0    60   ~ 0
 Wakeup from sleep button
@@ -362,127 +285,39 @@ F 6 "http://www.components.omron.com/components/web/PDFLIB.nsf/0/D85EBCB9FA436B2
 	1    2800 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R310
-U 1 1 56CBE7E3
-P 5650 1950
-F 0 "R310" V 5730 1950 50  0000 C CNN
-F 1 "0" V 5650 1950 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5580 1950 50  0001 C CNN
-F 3 "" H 5650 1950 50  0000 C CNN
-	1    5650 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R311
-U 1 1 56CBE852
-P 5650 2150
-F 0 "R311" V 5730 2150 50  0000 C CNN
-F 1 "0" V 5650 2150 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5580 2150 50  0001 C CNN
-F 3 "" H 5650 2150 50  0000 C CNN
-	1    5650 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L R R313
-U 1 1 56CBE898
-P 5650 2550
-F 0 "R313" V 5730 2550 50  0000 C CNN
-F 1 "0" V 5650 2550 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5580 2550 50  0001 C CNN
-F 3 "" H 5650 2550 50  0000 C CNN
-	1    5650 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L R R312
-U 1 1 56CBE8DB
-P 5650 2350
-F 0 "R312" V 5730 2350 50  0000 C CNN
-F 1 "0" V 5650 2350 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5580 2350 50  0001 C CNN
-F 3 "" H 5650 2350 50  0000 C CNN
-	1    5650 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R309
-U 1 1 56CBF304
-P 5200 4100
-F 0 "R309" V 5280 4100 50  0000 C CNN
-F 1 "0" V 5200 4100 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5130 4100 50  0001 C CNN
-F 3 "" H 5200 4100 50  0000 C CNN
-	1    5200 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L R R308
-U 1 1 56CBF53D
-P 5200 3900
-F 0 "R308" V 5280 3900 50  0000 C CNN
-F 1 "0" V 5200 3900 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5130 3900 50  0001 C CNN
-F 3 "" H 5200 3900 50  0000 C CNN
-	1    5200 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L R R307
-U 1 1 56CBF6CF
-P 5200 3700
-F 0 "R307" V 5280 3700 50  0000 C CNN
-F 1 "0" V 5200 3700 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5130 3700 50  0001 C CNN
-F 3 "" H 5200 3700 50  0000 C CNN
-	1    5200 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L R R306
-U 1 1 56CBFB49
-P 5200 3500
-F 0 "R306" V 5280 3500 50  0000 C CNN
-F 1 "0" V 5200 3500 50  0000 C CNN
-F 2 "CE_Resistor:R_0805" V 5130 3500 50  0001 C CNN
-F 3 "" H 5200 3500 50  0000 C CNN
-	1    5200 3500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1400 4800 1400 5250
+	1400 4600 1400 5250
 Wire Wire Line
 	1400 5250 1100 5250
 Wire Wire Line
 	1100 4950 1150 4950
 Wire Wire Line
-	1150 4950 1150 4800
+	1150 4950 1150 4600
 Wire Wire Line
-	850  4400 1400 4400
+	850  4100 1400 4100
 Wire Wire Line
-	1150 4400 1150 4500
+	1150 4100 1150 4300
 Wire Wire Line
 	1100 5150 1200 5150
 Wire Wire Line
-	1400 4400 1400 4500
-Connection ~ 1150 4400
+	1400 4100 1400 4300
+Connection ~ 1150 4100
 Connection ~ 1400 4900
 Wire Wire Line
-	1900 5050 1900 5200
+	1900 5050 1900 5350
 Connection ~ 1900 5050
 Wire Wire Line
-	1900 5600 1900 5500
+	1900 5850 1900 5650
 Wire Wire Line
 	1100 5450 1200 5450
 Wire Wire Line
-	1200 6050 1100 6050
+	1200 6200 1100 6200
 Wire Wire Line
 	1200 5450 1200 5600
 Wire Wire Line
 	1400 4900 2050 4900
 Wire Wire Line
-	5400 3650 5450 3650
+	6400 3650 6450 3650
 Wire Wire Line
 	550  6550 1350 6550
 Wire Wire Line
@@ -530,7 +365,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 5350 1450 5350
 Wire Wire Line
-	1200 5900 1200 6050
+	1200 5900 1200 6200
 Wire Wire Line
 	1100 5050 2100 5050
 Wire Wire Line
@@ -550,37 +385,37 @@ Wire Wire Line
 Wire Wire Line
 	5800 2450 5800 2550
 Wire Wire Line
-	5500 1950 3350 1950
+	3350 1950 5500 1950
 Wire Wire Line
 	3350 2150 5500 2150
 Wire Wire Line
 	3350 2350 5500 2350
 Wire Wire Line
-	5500 2550 3350 2550
+	3350 2550 5500 2550
 Wire Wire Line
-	5450 3950 5400 3950
+	6450 3950 6400 3950
 Wire Wire Line
-	5400 3950 5400 4100
+	6400 3950 6400 4100
 Wire Wire Line
-	5400 4100 5350 4100
+	6400 4100 6350 4100
 Wire Wire Line
-	4500 4100 5050 4100
+	4500 4100 6050 4100
 Wire Wire Line
-	5450 3850 5350 3850
+	6450 3850 6350 3850
 Wire Wire Line
-	5350 3850 5350 3900
+	6350 3850 6350 3900
 Wire Wire Line
-	4650 3900 5050 3900
+	4650 3900 6050 3900
 Wire Wire Line
-	5450 3750 5350 3750
+	6450 3750 6350 3750
 Wire Wire Line
-	5350 3750 5350 3700
+	6350 3750 6350 3700
 Wire Wire Line
-	4800 3700 5050 3700
+	4800 3700 6050 3700
 Wire Wire Line
-	5400 3650 5400 3500
+	6400 3650 6400 3500
 Wire Wire Line
-	5400 3500 5350 3500
+	6400 3500 6350 3500
 Wire Wire Line
 	4500 4100 4500 2550
 Connection ~ 4500 2550
@@ -591,15 +426,255 @@ Wire Wire Line
 	4800 3700 4800 2150
 Connection ~ 4800 2150
 Wire Wire Line
-	5050 3500 4950 3500
+	4950 3500 6050 3500
 Wire Wire Line
-	4950 3500 4950 1950
+	4950 1950 4950 3500
 Connection ~ 4950 1950
 Wire Wire Line
 	4950 3000 5100 3000
 Connection ~ 4950 3000
 Text Notes 6100 1800 2    60   ~ 0
 OUTPUT
-Text Notes 5850 3450 2    60   ~ 0
+Text Notes 6850 3450 2    60   ~ 0
 INPUT
+$Comp
+L ERJ-6GEY0R00V R310
+U 1 1 586DE5F4
+P 5650 1950
+F 0 "R310" V 5730 1950 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 5600 1500 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6050 2700 50  0001 C CNN
+F 3 "" H 5650 1950 50  0000 C CNN
+F 4 "0" V 5650 1950 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6050 2900 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 7950 2500 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8400 2600 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6600 2800 60  0001 C CNN "Description"
+	1    5650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R311
+U 1 1 586DED44
+P 5650 2150
+F 0 "R311" V 5730 2150 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 5600 1700 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6050 2900 50  0001 C CNN
+F 3 "" H 5650 2150 50  0000 C CNN
+F 4 "0" V 5650 2150 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6050 3100 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 7950 2700 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8400 2800 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6600 3000 60  0001 C CNN "Description"
+	1    5650 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R312
+U 1 1 586DEDC8
+P 5650 2350
+F 0 "R312" V 5730 2350 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 5600 1900 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6050 3100 50  0001 C CNN
+F 3 "" H 5650 2350 50  0000 C CNN
+F 4 "0" V 5650 2350 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6050 3300 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 7950 2900 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8400 3000 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6600 3200 60  0001 C CNN "Description"
+	1    5650 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R313
+U 1 1 586DEE44
+P 5650 2550
+F 0 "R313" V 5730 2550 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 5600 2100 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6050 3300 50  0001 C CNN
+F 3 "" H 5650 2550 50  0000 C CNN
+F 4 "0" V 5650 2550 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6050 3500 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 7950 3100 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8400 3200 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6600 3400 60  0001 C CNN "Description"
+	1    5650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R306
+U 1 1 586DF1F3
+P 6200 3500
+F 0 "R306" V 6280 3500 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 6150 3050 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6600 4250 50  0001 C CNN
+F 3 "" H 6200 3500 50  0000 C CNN
+F 4 "0" V 6200 3500 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6600 4450 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 8500 4050 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8950 4150 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 7150 4350 60  0001 C CNN "Description"
+	1    6200 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R307
+U 1 1 586DF2C1
+P 6200 3700
+F 0 "R307" V 6280 3700 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 6150 3250 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6600 4450 50  0001 C CNN
+F 3 "" H 6200 3700 50  0000 C CNN
+F 4 "0" V 6200 3700 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6600 4650 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 8500 4250 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8950 4350 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 7150 4550 60  0001 C CNN "Description"
+	1    6200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R308
+U 1 1 586DF347
+P 6200 3900
+F 0 "R308" V 6280 3900 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 6150 3450 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6600 4650 50  0001 C CNN
+F 3 "" H 6200 3900 50  0000 C CNN
+F 4 "0" V 6200 3900 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6600 4850 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 8500 4450 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8950 4550 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 7150 4750 60  0001 C CNN "Description"
+	1    6200 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R309
+U 1 1 586DF3DD
+P 6200 4100
+F 0 "R309" V 6280 4100 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 6150 3650 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 6600 4850 50  0001 C CNN
+F 3 "" H 6200 4100 50  0000 C CNN
+F 4 "0" V 6200 4100 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 6600 5050 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 8500 4650 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 8950 4750 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 7150 4950 60  0001 C CNN "Description"
+	1    6200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L C0805C104K3RACTU C301
+U 1 1 586E040C
+P 950 6950
+F 0 "C301" V 1000 7000 50  0000 L CNN
+F 1 "C0805C104K3RACTU" V 800 6450 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 1400 8300 50  0001 C CNN
+F 3 "" H 975 7050 50  0000 C CNN
+F 4 "0.1uF" V 1000 6750 60  0000 C CNN "Specification"
+F 5 "C0805C104K3RACTU" H 1450 8500 60  0001 C CNN "MPN"
+F 6 "CAP CER 0.1UF 25V X7R 0805" H 1700 8400 60  0001 C CNN "Description"
+F 7 "http://www.kemet.com/docfinder?Partnumber=C0805C104K3RACTU" H 2550 8100 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/kemet/C0805C104K3RACTU/399-1168-1-ND/411443" H 3300 8200 60  0001 C CNN "SupplierLink"
+	1    950  6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C0805C104K3RACTU C302
+U 1 1 586E04C9
+P 2400 6950
+F 0 "C302" V 2450 7000 50  0000 L CNN
+F 1 "C0805C104K3RACTU" V 2250 6450 50  0000 L CNN
+F 2 "CE_Capacitor:C_0805" H 2850 8300 50  0001 C CNN
+F 3 "" H 2425 7050 50  0000 C CNN
+F 4 "0.1uF" V 2450 6750 60  0000 C CNN "Specification"
+F 5 "C0805C104K3RACTU" H 2900 8500 60  0001 C CNN "MPN"
+F 6 "CAP CER 0.1UF 25V X7R 0805" H 3150 8400 60  0001 C CNN "Description"
+F 7 "http://www.kemet.com/docfinder?Partnumber=C0805C104K3RACTU" H 4000 8100 60  0001 C CNN "DatasheetLink"
+F 8 "https://www.digikey.com/product-detail/en/kemet/C0805C104K3RACTU/399-1168-1-ND/411443" H 4750 8200 60  0001 C CNN "SupplierLink"
+	1    2400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R301
+U 1 1 586E0E83
+P 1150 4450
+F 0 "R301" V 1230 4450 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 1050 4400 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 1550 5200 50  0001 C CNN
+F 3 "" H 1150 4450 50  0000 C CNN
+F 4 "0" V 1150 4450 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 1550 5400 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 3450 5000 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 3900 5100 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 2100 5300 60  0001 C CNN "Description"
+	1    1150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R302
+U 1 1 586E1304
+P 1200 5750
+F 0 "R302" V 1280 5750 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 1100 5700 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 1600 6500 50  0001 C CNN
+F 3 "" H 1200 5750 50  0000 C CNN
+F 4 "0" V 1200 5750 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 1600 6700 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 3500 6300 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 3950 6400 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 2150 6600 60  0001 C CNN "Description"
+	1    1200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L RMCF0805FT100K R303
+U 1 1 586E1608
+P 1400 4450
+F 0 "R303" V 1480 4450 50  0000 C CNN
+F 1 "RMCF0805FT100K" V 1550 4450 50  0000 C CNN
+F 2 "CE_Capacitor:C_0805" H 1800 5100 50  0001 C CNN
+F 3 "" H 1400 4450 50  0000 C CNN
+F 4 "100k" V 1400 4450 55  0000 C CNN "Specification"
+F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT100K/RMCF0805FT100KCT-ND/1942491" H 4300 5000 60  0001 C CNN "SupplierLink"
+F 6 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2700 4900 60  0001 C CNN "DatasheetLink"
+F 7 "RES SMD 100K OHM 1% 1/8W 0805" H 2250 5200 60  0001 C CNN "Description"
+F 8 "RMCF0805FT100K" H 1800 5300 60  0001 C CNN "MPN"
+	1    1400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RMCF0805FT100K R304
+U 1 1 586E18EE
+P 1900 5500
+F 0 "R304" V 1980 5500 50  0000 C CNN
+F 1 "RMCF0805FT100K" V 2050 5500 50  0000 C CNN
+F 2 "CE_Capacitor:C_0805" H 2300 6150 50  0001 C CNN
+F 3 "" H 1900 5500 50  0000 C CNN
+F 4 "100k" V 1900 5500 55  0000 C CNN "Specification"
+F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT100K/RMCF0805FT100KCT-ND/1942491" H 4800 6050 60  0001 C CNN "SupplierLink"
+F 6 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3200 5950 60  0001 C CNN "DatasheetLink"
+F 7 "RES SMD 100K OHM 1% 1/8W 0805" H 2750 6250 60  0001 C CNN "Description"
+F 8 "RMCF0805FT100K" H 2300 6350 60  0001 C CNN "MPN"
+	1    1900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERJ-6GEY0R00V R305
+U 1 1 586E1FF1
+P 3950 6950
+F 0 "R305" V 4030 6950 50  0000 C CNN
+F 1 "ERJ-6GEY0R00V" V 3800 7150 50  0000 C CNN
+F 2 "CE_Resistor:R_0805" H 4350 7700 50  0001 C CNN
+F 3 "" H 3950 6950 50  0000 C CNN
+F 4 "0" V 3950 6950 60  0000 C CNN "Specification"
+F 5 "ERJ-6GEY0R00V" H 4350 7900 60  0001 C CNN "MPN"
+F 6 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" H 6250 7500 60  0001 C CNN "DatasheetLink"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" H 6700 7600 60  0001 C CNN "SupplierLink"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 4900 7800 60  0001 C CNN "Description"
+	1    3950 6950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
